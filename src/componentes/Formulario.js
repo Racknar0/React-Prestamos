@@ -3,7 +3,7 @@ import {calcularTotal} from '../helpers';
 
 const Formulario = (props) => {
 
-    const { cantidad, guardarCantidad, plazo, guardarPlazo, total, guardarTotal, guardarCargando } = props
+    const { cantidad, guardarCantidad, plazo, guardarPlazo, guardarTotal, guardarCargando } = props
 
     //! Defonor state
     const [error, guardarError] = useState(false);
